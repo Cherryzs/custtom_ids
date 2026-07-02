@@ -3,7 +3,7 @@
 ```markdown
 # Custom IDS/IPS Project
 
-## 📌 Project Overview
+## Project Overview
 This project implements a custom Intrusion Detection System (IDS) in Python using Scapy.  
 The IDS is capable of detecting five attack types:
 - Stealthy ARP Scanning
@@ -16,7 +16,7 @@ Alerts are generated in real time and sent to a Telegram bot for notification.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 1. Install **VirtualBox** and create two VMs:
    - **Ubuntu** → runs the IDS (victim/target machine).
    - **Kali Linux** → used to simulate attacks (attacker machine).
@@ -31,7 +31,7 @@ Alerts are generated in real time and sent to a Telegram bot for notification.
 
 ---
 
-## ▶️ How to Run IDS
+## How to Run IDS
 On the Ubuntu VM:
 ```bash
 sudo python3 ids.py
@@ -43,7 +43,7 @@ sudo python3 ids.py <interface_name>
 
 ---
 
-## 🧪 Example Attacks
+## Example Attacks
 Run these commands on the Kali Linux VM to trigger alerts:
 
 - **ARP Scan:**  
@@ -73,7 +73,7 @@ Run these commands on the Kali Linux VM to trigger alerts:
 
 ---
 
-## 🚨 Expected Alerts
+## Expected Alerts
 When attacks are detected, alerts appear in:
 - IDS terminal output  
 - Telegram bot messages  
@@ -82,7 +82,7 @@ When attacks are detected, alerts appear in:
 
 ---
 
-## 📡 Telegram Setup
+## Telegram Setup
 1. Create a bot using **BotFather** in Telegram.  
 2. Obtain the **API token** and **chat ID**.  
 3. Update the following variables in `ids.py`:
@@ -93,13 +93,12 @@ When attacks are detected, alerts appear in:
 
 ---
 
-## 👥 Authors / Team Members
+## Team Members
 - Rabiatul  
--
+- Huwaina
+- A'ilia
+- Najihah
 
 
 ---
 
-👉 This README.md is ready to drop into your repo. You just need to replace the **example alert screenshots placeholder** with actual images and add your teammates’ names.  
-
-Would you like me to also prepare a **requirements.txt file content** (listing Scapy, Requests, etc.) so your repo is fully plug‑and‑play?
